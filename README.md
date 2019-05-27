@@ -34,7 +34,6 @@ From Terminal:
 
 ![Alt CodeCovrage](Jacoco.png?raw=true "Jacoco")
 
-
 Examples: 
 
  Please note that : 
@@ -68,5 +67,7 @@ A customer is an affiliate.  He purchases $990 worth of non-grocery items. His d
 
 http://localhost:9191/getDiscount?customerType=Affiliate&memberShipAgeInDays=0&nonGroceryItemTotal=990
 
+
+![Alt DiscountApp](DiscountAppMinimal.png?raw=true "DiscountAppMinimal")
 
 
