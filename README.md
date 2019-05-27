@@ -14,7 +14,17 @@ http://localhost:9191/swagger-ui.html
 
 In order to generate test coverage , 
 
+From Eclipse Spring Tools Suit:
+1.Right click on project root 
+2. Choose Coverage As 
+3. Choose JUnit Test
+4. Open Coverage window :
+   click Window => Show View => other..=> Java=>Coverage
+  
 
+
+
+From Terminal:
 1. Open a terminal 
 2. cd to project root "DiscountSystemMinimal"
 3. and run :
