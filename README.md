@@ -26,13 +26,13 @@ In order to generate test coverage ,
 
 Examples: 
 
- Please note that 
-            the value of customerType can only be Employee , Affiliate or Customer .
+ Please note that : 
+            The value of customerType can only be Employee , Affiliate or Customer .
 
-            the value of memberShipAgeInDays can be any integer, but for effective discount it has to be more  
+            The value of memberShipAgeInDays can be any integer, but for effective discount it has to be more  
              than 2 years which is 730 days. An effective number for this parameter is 731 . 
 
-            the value of nonGroceryItemTotal can any double value .
+           The value of nonGroceryItemTotal can be any double value .
 
 
 Case:1 
@@ -49,13 +49,13 @@ http://localhost:9191/getDiscount?customerType=Customer&memberShipAgeInDays=732&
 caser 3:
  A customer is an employee . He purchases $990 worth of non-grocery items. His discount is 30% which is $297
 
-localhost:9191/getDiscount?customerType=Employee&memberShipAgeInDays=0&nonGroceryItemTotal=990
+http://localhost:9191/getDiscount?customerType=Employee&memberShipAgeInDays=0&nonGroceryItemTotal=990
 
 
 case:4
 A customer is an affiliate.  He purchases $990 worth of non-grocery items. His discount is 10% which is $99
 
-localhost:9191/getDiscount?customerType=Affiliate&memberShipAgeInDays=0&nonGroceryItemTotal=990
+http://localhost:9191/getDiscount?customerType=Affiliate&memberShipAgeInDays=0&nonGroceryItemTotal=990
 
 
 
