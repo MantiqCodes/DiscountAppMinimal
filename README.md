@@ -21,7 +21,7 @@ From Eclipse Spring Tools Suit:
 4. Open Coverage window :
    click Window => Show View => other..=> Java=>Coverage
   
-
+![Alt CodeCovrage](CodeCoverage.png?raw=true "Coverage")
 
 
 From Terminal:
