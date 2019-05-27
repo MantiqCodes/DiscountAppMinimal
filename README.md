@@ -32,6 +32,7 @@ From Terminal:
 
  4 . visit file:///<PATH_TO_PROJECT_PARENT_FOLDER>/DiscountSystemMinimal/target/site/jacoco/index.html 
 
+![Alt CodeCovrage](Jacoco.png?raw=true "Jacoco")
 
 
 Examples: 
