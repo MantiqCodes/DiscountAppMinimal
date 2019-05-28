@@ -1,18 +1,6 @@
                                             Discount App 
 
-
-How to run the project: 
-
-1. Open a terminal 
-2. cd to project root "DiscountSystemMinimal"
-3. and run :
-    mvn spring-boot:run 
-
-I used Swagger for documentaton. 
-For documentation visit the url 
-http://localhost:9191/swagger-ui.html
-
-In order to generate test coverage , 
+In order to generate test coverage (using EclEmma), 
 
 From Eclipse Spring Tools Suit:
 1.Right click on project root 
@@ -34,13 +22,31 @@ From Terminal:
 
 ![Alt CodeCovrage](Jacoco.png?raw=true "Jacoco")
 
+
+
+
+How to run the project: 
+
+1. Open a terminal 
+2. cd to project root "DiscountSystemMinimal"
+3. and run :
+    mvn spring-boot:run 
+
+I used Swagger for documentaton. 
+For documentation visit the url 
+http://localhost:9191/swagger-ui.html
+
+
+
 Examples: 
 
  Please note that : 
-            The value of customerType can only be Employee , Affiliate or Customer .
+            The value of customerType can only be the following which are case sensitive:
+            
+            Employee , Affiliate or Customer .
 
             The value of memberShipAgeInDays can be any integer, but for effective discount it has to be more  
-             than 2 years which is 730 days. An effective number for this parameter is 731 . 
+             than 2 years which is 730 days. An effective figure for this parameter is 731 . 
 
            The value of nonGroceryItemTotal can be any double value .
 
