@@ -18,7 +18,7 @@ From Eclipse Spring Tools Suit:
 1. Open a terminal 
 2. cd to project root "DiscountSystemMinimal"
 3. and run :
-    mvn verify
+  ```  mvn verify ```
 
  4 . visit file:///<PATH_TO_PROJECT_PARENT_FOLDER>/DiscountSystemMinimal/target/site/jacoco/index.html 
 
@@ -32,7 +32,7 @@ From Eclipse Spring Tools Suit:
 1. Open a terminal 
 2. cd to project root "DiscountSystemMinimal"
 3. and run :
-    mvn spring-boot:run 
+   ``` mvn spring-boot:run ```
 
 ###### I used Swagger for documentaton. 
 For documentation visit the url 
