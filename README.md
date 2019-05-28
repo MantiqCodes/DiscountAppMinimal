@@ -1,5 +1,5 @@
                                          
-                                         Discount App 
+                                         Discount App without JPA and Databse
                                          
  ![Alt DiscountApp](DiscountAppMinimalEdited.png?raw=true "DiscountAppMinimal")
 
