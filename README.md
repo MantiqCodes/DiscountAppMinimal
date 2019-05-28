@@ -45,10 +45,10 @@ http://localhost:9191/swagger-ui.html
 ###### Examples: 
 
  Please note that : 
-            >The value of customerType can only be one of the following which are **case sensitive**:
+              The value of customerType can only be one of the following which are **case sensitive**:
             
-            
-            ```Employee , Affiliate or Customer```
+        
+            Employee , Affiliate or Customer
 
   >          The value of `memberShipAgeInDays` can be any integer, but for effective discount it has to be more  
   >           than 2 years which is 730 days. An effective figure for this parameter is 731 . 
