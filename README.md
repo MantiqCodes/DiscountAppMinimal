@@ -1,5 +1,7 @@
                                          
                                          Discount App 
+                                         
+ ![Alt DiscountApp](DiscountAppMinimalEdited.png?raw=true "DiscountAppMinimal")
 
 ###### In order to generate test coverage (using EclEmma), 
 
@@ -78,6 +80,6 @@ A customer is an affiliate.  He purchases $990 worth of non-grocery items. His d
 http://localhost:9191/getDiscount?customerType=Affiliate&memberShipAgeInDays=0&nonGroceryItemTotal=990
 
 
-![Alt DiscountApp](DiscountAppMinimalEdited.png?raw=true "DiscountAppMinimal")
+
 
 
