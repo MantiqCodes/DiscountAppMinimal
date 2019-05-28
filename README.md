@@ -45,8 +45,8 @@ http://localhost:9191/swagger-ui.html
  Please note that : 
             >The value of customerType can only be one of the following which are **case sensitive**:
             
-            ```
-            Employee , Affiliate or Customer ```
+            
+            ```Employee , Affiliate or Customer```
 
   >          The value of `memberShipAgeInDays` can be any integer, but for effective discount it has to be more  
   >           than 2 years which is 730 days. An effective figure for this parameter is 731 . 
@@ -54,7 +54,8 @@ http://localhost:9191/swagger-ui.html
   >         The value of `nonGroceryItemTotal` can be any double value .
 
 
-**Case:1 **
+
+**Case:1**
 A new Customer spends $990 for non-grocery items. His discount is $45;
 
 http://localhost:9191/getDiscount?customerType=Customer&memberShipAgeInDays=0&nonGroceryItemTotal=990
