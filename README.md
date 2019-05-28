@@ -1,7 +1,7 @@
                                          
                                          Discount App 
 
- In order to generate test coverage (using EclEmma), 
+###### In order to generate test coverage (using EclEmma), 
 
 From Eclipse Spring Tools Suit:
 1.Right click on project root 
